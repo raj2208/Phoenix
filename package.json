@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "knip": "knip",
+    "spellcheck": "cspell lint --no-progress \"**/*\""
   },
   "dependencies": {
     "next": "16.2.2",
@@ -18,8 +20,11 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cspell": "^10.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
+    "knip": "^6.3.0",
+    "postcss": "^8.5.8",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["softwareTerms", "typescript", "node"],
+  "dictionaryDefinitions": [],
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/out/**",
+    "**/build/**",
+    "**/coverage/**",
+    "**/pnpm-lock.yaml"
+  ],
+  "words": [
+    "Turbopack",
+    "Vercel",
+    "logomark",
+    "tailwindcss",
+    "tsbuildinfo",
+    "unrs"
+  ]
+}
+
